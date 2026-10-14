@@ -34,7 +34,7 @@ export default function GameComponent() {
 
     function startGame() {
         const phrase = getAString();
-        const randKey = encode(phrase, 1);
+        const randKey = encode(phrase);
 
         setOriginalPhrase(phrase);
         setCodedPhrase(randKey);
